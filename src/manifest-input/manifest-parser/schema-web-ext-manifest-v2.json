@@ -187,6 +187,11 @@
             "description": "Controls whether the content script runs in all frames of the matching page, or only the top frame.",
             "default": false
           },
+          "match_origin_as_fallback": {
+            "type": "boolean",
+            "description": "Controls whether the content script runs in all frames of the matching page, or only the top frame.",
+            "default": false
+          },
           "include_globs": {
             "type": "array",
             "description": "Applied after matches to include only those URLs that also match this glob. Intended to emulate the @include Greasemonkey keyword.",
